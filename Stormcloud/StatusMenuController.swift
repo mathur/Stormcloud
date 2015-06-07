@@ -29,6 +29,7 @@ class StatusMenuController: NSObject, PreferencesWindowDelegate {
         let city = defaults.stringForKey("city") ?? DEFAULT_CITY
         weatherAPI.fetchWeather(city) { weather in
             self.weatherView.update(weather)
+            self.statusItem.image = NSImage(named: weather.icon)
             self.statusItem.title = "\(Int(weather.currentTemp)) °F"
         }
     }

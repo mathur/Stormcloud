@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A28F6DD51ABB48FD00DD196E /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F6DD41ABB48FD00DD196E /* StatusMenuController.swift */; };
+		A28F6DD71ABB4B9800DD196E /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F6DD61ABB4B9800DD196E /* WeatherAPI.swift */; };
+		A2A59C5E1ABB31560030BB74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A59C5D1ABB31560030BB74 /* AppDelegate.swift */; };
+		A2A59C601ABB31560030BB74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A59C5F1ABB31560030BB74 /* Images.xcassets */; };
+		A2A59C631ABB31560030BB74 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2A59C611ABB31560030BB74 /* MainMenu.xib */; };
+		A2A59C6F1ABB31560030BB74 /* StormcloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A59C6E1ABB31560030BB74 /* StormcloudTests.swift */; };
+		A2EF56C91ABBC5C500007C73 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF56C81ABBC5C500007C73 /* WeatherView.swift */; };
+		A2EF56DE1ABC894600007C73 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF56DC1ABC894600007C73 /* PreferencesWindow.swift */; };
+		A2EF56DF1ABC894600007C73 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2EF56DD1ABC894600007C73 /* PreferencesWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2A59C691ABB31560030BB74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A59C501ABB31550030BB74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A59C571ABB31560030BB74;
+			remoteInfo = Stormcloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A28F6DD41ABB48FD00DD196E /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		A28F6DD61ABB4B9800DD196E /* WeatherAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		A2A59C581ABB31560030BB74 /* Stormcloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stormcloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A59C5C1ABB31560030BB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A59C5D1ABB31560030BB74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2A59C5F1ABB31560030BB74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2A59C621ABB31560030BB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A2A59C681ABB31560030BB74 /* StormcloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormcloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A59C6D1ABB31560030BB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A59C6E1ABB31560030BB74 /* StormcloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormcloudTests.swift; sourceTree = "<group>"; };
+		A2EF56C81ABBC5C500007C73 /* WeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		A2EF56DC1ABC894600007C73 /* PreferencesWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
+		A2EF56DD1ABC894600007C73 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2A59C551ABB31560030BB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A59C651ABB31560030BB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2A59C4F1ABB31550030BB74 = {
+			isa = PBXGroup;
+			children = (
+				A2A59C5A1ABB31560030BB74 /* Stormcloud */,
+				A2A59C6B1ABB31560030BB74 /* StormcloudTests */,
+				A2A59C591ABB31560030BB74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2A59C591ABB31560030BB74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2A59C581ABB31560030BB74 /* Stormcloud.app */,
+				A2A59C681ABB31560030BB74 /* StormcloudTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2A59C5A1ABB31560030BB74 /* Stormcloud */ = {
+			isa = PBXGroup;
+			children = (
+				A2A59C5D1ABB31560030BB74 /* AppDelegate.swift */,
+				A28F6DD41ABB48FD00DD196E /* StatusMenuController.swift */,
+				A28F6DD61ABB4B9800DD196E /* WeatherAPI.swift */,
+				A2EF56C81ABBC5C500007C73 /* WeatherView.swift */,
+				A2A59C611ABB31560030BB74 /* MainMenu.xib */,
+				A2A59C5F1ABB31560030BB74 /* Images.xcassets */,
+				A2A59C5B1ABB31560030BB74 /* Supporting Files */,
+				A2EF56DC1ABC894600007C73 /* PreferencesWindow.swift */,
+				A2EF56DD1ABC894600007C73 /* PreferencesWindow.xib */,
+			);
+			path = Stormcloud;
+			sourceTree = "<group>";
+		};
+		A2A59C5B1ABB31560030BB74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2A59C5C1ABB31560030BB74 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2A59C6B1ABB31560030BB74 /* StormcloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A59C6E1ABB31560030BB74 /* StormcloudTests.swift */,
+				A2A59C6C1ABB31560030BB74 /* Supporting Files */,
+			);
+			path = StormcloudTests;
+			sourceTree = "<group>";
+		};
+		A2A59C6C1ABB31560030BB74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2A59C6D1ABB31560030BB74 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2A59C571ABB31560030BB74 /* Stormcloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A59C721ABB31560030BB74 /* Build configuration list for PBXNativeTarget "Stormcloud" */;
+			buildPhases = (
+				A2A59C541ABB31560030BB74 /* Sources */,
+				A2A59C551ABB31560030BB74 /* Frameworks */,
+				A2A59C561ABB31560030BB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stormcloud;
+			productName = Stormcloud;
+			productReference = A2A59C581ABB31560030BB74 /* Stormcloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2A59C671ABB31560030BB74 /* StormcloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A59C751ABB31560030BB74 /* Build configuration list for PBXNativeTarget "StormcloudTests" */;
+			buildPhases = (
+				A2A59C641ABB31560030BB74 /* Sources */,
+				A2A59C651ABB31560030BB74 /* Frameworks */,
+				A2A59C661ABB31560030BB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A59C6A1ABB31560030BB74 /* PBXTargetDependency */,
+			);
+			name = StormcloudTests;
+			productName = StormcloudTests;
+			productReference = A2A59C681ABB31560030BB74 /* StormcloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2A59C501ABB31550030BB74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = rmathur;
+				TargetAttributes = {
+					A2A59C571ABB31560030BB74 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A2A59C671ABB31560030BB74 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A2A59C571ABB31560030BB74;
+					};
+				};
+			};
+			buildConfigurationList = A2A59C531ABB31550030BB74 /* Build configuration list for PBXProject "Stormcloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2A59C4F1ABB31550030BB74;
+			productRefGroup = A2A59C591ABB31560030BB74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2A59C571ABB31560030BB74 /* Stormcloud */,
+				A2A59C671ABB31560030BB74 /* StormcloudTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2A59C561ABB31560030BB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A59C601ABB31560030BB74 /* Images.xcassets in Resources */,
+				A2EF56DF1ABC894600007C73 /* PreferencesWindow.xib in Resources */,
+				A2A59C631ABB31560030BB74 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A59C661ABB31560030BB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2A59C541ABB31560030BB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28F6DD71ABB4B9800DD196E /* WeatherAPI.swift in Sources */,
+				A2EF56DE1ABC894600007C73 /* PreferencesWindow.swift in Sources */,
+				A28F6DD51ABB48FD00DD196E /* StatusMenuController.swift in Sources */,
+				A2A59C5E1ABB31560030BB74 /* AppDelegate.swift in Sources */,
+				A2EF56C91ABBC5C500007C73 /* WeatherView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A59C641ABB31560030BB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A59C6F1ABB31560030BB74 /* StormcloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2A59C6A1ABB31560030BB74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A59C571ABB31560030BB74 /* Stormcloud */;
+			targetProxy = A2A59C691ABB31560030BB74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2A59C611ABB31560030BB74 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A59C621ABB31560030BB74 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2A59C701ABB31560030BB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2A59C711ABB31560030BB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A2A59C731ABB31560030BB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Stormcloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2A59C741ABB31560030BB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Stormcloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2A59C761ABB31560030BB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StormcloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stormcloud.app/Contents/MacOS/Stormcloud";
+			};
+			name = Debug;
+		};
+		A2A59C771ABB31560030BB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StormcloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stormcloud.app/Contents/MacOS/Stormcloud";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2A59C531ABB31550030BB74 /* Build configuration list for PBXProject "Stormcloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A59C701ABB31560030BB74 /* Debug */,
+				A2A59C711ABB31560030BB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A59C721ABB31560030BB74 /* Build configuration list for PBXNativeTarget "Stormcloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A59C731ABB31560030BB74 /* Debug */,
+				A2A59C741ABB31560030BB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A59C751ABB31560030BB74 /* Build configuration list for PBXNativeTarget "StormcloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A59C761ABB31560030BB74 /* Debug */,
+				A2A59C771ABB31560030BB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2A59C501ABB31550030BB74 /* Project object */;
+}
